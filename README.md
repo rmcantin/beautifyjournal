@@ -3,7 +3,7 @@
 
 This is a set of scripts for creating nice preview page (see here:
 <http://cs.stanford.edu/~karpathy/nipspreview/> ). It was originally
-developed by [Karpathy]http://cs.stanford.edu/~karpathy/)  for all papers
+developed by [Karpathy](http://cs.stanford.edu/~karpathy/)  for all papers
 published at NIPS. I have extended the functionality to JMLR and RSS.
 
 #### Installation
