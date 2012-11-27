@@ -1,0 +1,100 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	background-color: #F6F3E5;
+}
+.as {
+	font-size: 12px;
+	color: #900;
+}
+.ts {
+	font-weight: bold;
+	font-size: 14px;
+}
+.tt {
+	color: #009;
+	font-size: 13px;
+}
+h1 {
+	font-size: 20px;
+	padding: 0;
+	margin: 0;
+}
+#titdiv {
+	width: 100%;
+	height: 90px;
+	background-color: #840000;
+	color: white;
+
+	padding-top: 20px;
+	padding-left: 20px;
+
+	border-bottom: 1px solid #540000;
+}
+
+#maindiv {
+	width: 970px;
+	padding: 15px;
+	margin-left: auto;
+	margin-right: auto;
+
+	border-left: solid 1px #D6D3C5;
+	border-right: solid 1px #D6D3C5;
+
+	background-color: white;
+}
+
+.apaper {
+	margin-top: 25px;
+	min-height: 300px;
+}
+
+.paperdesc {
+	float: left;
+}
+
+.dllinks {
+	float: right;
+	text-align: right;
+}
+
+#titdiv a:link{ color: white; }
+#titdiv a:visited{ color: white; }
+
+#maindiv a:link{ color: #666; }
+#maindiv a:visited{ color: #600; }
+
+.t0 { color: #000;}
+.t1 { color: #C00;}
+.t2 { color: #0C0;}
+.t3 { color: #00C;}
+.t4 { color: #AA0;}
+.t5 { color: #C0C;}
+.t6 { color: #0CC;}
+
+.topicchoice {
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 4px;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#explanation {
+	background-color: #CFC;
+	border-radius: 5px;
+	color: black;
+	padding: 5px;
+	text-align: center;
+}
+
+#sortoptions {
+	text-align: center;
+	padding: 10px;
+}
+
+.sim {
+	cursor: pointer;
+	text-decoration: underline;
+}
