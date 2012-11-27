@@ -11,9 +11,9 @@ published at NIPS. I have extended the functionality to JMLR and RSS.
 So far, the installation and usage is pretty similar to the one you
 can find in <https://github.com/karpathy/nipspreview>. However, I have
 modified some parts to add new functionality. For example, there are
-functions to automatically gather the pds. Besides, I'm moving to a
-module desing so you don't need to be calling several scripts
-sequentially.
+functions to automatically download all the pdfs from a volume of
+proceedings. Besides, I'm moving to a modular desing so you don't need
+to be calling several scripts sequentially.
 
 #### Licence
 
