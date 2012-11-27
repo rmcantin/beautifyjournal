@@ -58,7 +58,7 @@ def generate_page(pdflinkbase=None, bibtexlinkbase=None,
 	    ds[pid2, pid] = score
 
     # build up the string for html
-    html = open("nipsnice_template.html", "r").read()
+    html = open("bj_template.html", "r").read()
     s = ""
     js = "ldadist=["
     js2 = "pairdists=["
@@ -103,7 +103,7 @@ def generate_page(pdflinkbase=None, bibtexlinkbase=None,
 	# get path to thumbnails for this paper
 	thumbpath = "thumbs/%s.pdf.jpg" % (p, )
 
-	# get links to PDF, supplementary and bibtex on NIPS servers
+	# get links to PDF, supplementary and bibtex on the original servers
 #	if pdflinkbase: pdflink = pdflinkbase+ "%s/%s.pdf" % (p,p)
 #	if bibtexlinkbase:bibtexlink = bibtexlinkbase + "%s.html" % (p, )
 
@@ -138,7 +138,7 @@ def generate_page(pdflinkbase=None, bibtexlinkbase=None,
     js2 += "]"
     newhtml = newhtml.replace("PAIRDISTS", js2)
 
-    with open("nipsnice.html", "w") as f:
+    with open("bj_nice.html", "w") as f:
         f.write(newhtml)
 	f.close()
 
